@@ -30,11 +30,11 @@ To calculate the wage increase for non-smokers within the insurance budget of $9
 SELECT COUNT(*) AS nonsmokers FROM Absenteeism_at_work
 WHERE Social_smoker = 0;
 ```
-There are 686 non-smokers. If they work 8 hours a day,5 day a week, for a year. Then
+- There are 686 non-smokers. If they work 8 hours a day,5 day a week, for a year. Then
 5 * 8 * 52 =2080 hours a year.
-686 employee works 2080 * 686 = 1426880 hours
-983221/1426880 = 0.68 cents/hour increase in income.
-For 1 year increase 0.68 * 2080 = $1414.4
+- 686 employee works 2080 * 686 = 1426880 hours
+- 983221/1426880 = 0.68 cents/hour increase in income.
+- For 1 year increase 0.68 * 2080 = $1414.4
 
 ### SQL Query for Power BI Integration
 We optimized the data query for Power BI visualization:
